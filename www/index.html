@@ -1,0 +1,109 @@
+<html>
+<head>
+	<title>
+	Lycos Webcenter	</title>
+	<meta NAME="revisit-after" CONTENT="9 days">
+	<meta NAME="description" CONTENT="Hospedaje web, registro de dominios, alojamiento de paginas, gestion curriculum en linea, software album de fotos o comprar / registrar dominio online en Lycos WebCenter. Soluciones personales y profesionales para presencia en Internet, hosting y diseño. Entra ahora y pruebalo.">
+	<meta NAME="keywords" CONTENT="hospedaje web alojamiento registro dominios paginas album fotos software registrar dominio pagina fotos organizar gestion comprar recursos curriculum online en linea lycos webcenter hosting webdesign">
+	<meta NAME="author" CONTENT="Lycos WebCenter">
+	<meta NAME="robots" CONTENT="ALL">
+	<link rel="stylesheet" href="http://syndication.alojamiento.lycos.es/resources/img/members/add_dip.css" type="text/css" media="all" />
+</head>
+<body onload="putValue();">
+<script language="JavaScript">
+	function verifyForm() {
+		if (document.domain_form.elements['domain'].value) {
+			document.domain_form.elements['verifydomainname'].value = "action";
+			document.domain_form.submit();
+		}
+		else alert("Debes escribir un nombre de dominio para continuar.");
+	}
+	function putValue() {
+		var startPos = document.domain.search(/\./) + 1;
+		var endPos = document.domain.substr(startPos).search(/\./);
+		document.getElementById("domain").value = document.domain.substr(startPos,endPos);
+	}
+	function domain_name() {
+		var startPos = document.domain.search(/\./) + 1;
+		document.write(document.domain.substr(startPos))
+	}
+</script>
+<div class="container">
+	<div class="header"></div>
+	<div class="body">
+		<div class="build_header"><img src="http://syndication.alojamiento.lycos.es/resources/img/members/topleftbutton.jpg"></div>
+		<div class="title_head">
+				<img src="http://syndication.alojamiento.lycos.es/resources/img/members/mmpaccountLogoNew.jpg" alt="tu soluci&oacute;n profesional de alojamiento web"/> 
+				<br/>
+				<div class="breaker"></div>
+				<span style="font-weight: bold">Lycos WebCenter:</span> tu solución profesional de alojamiento web en 7 países europeos.				<br/><br/>
+				<div class="breaker"></div>
+				<div class="button"><div class="btnleft"></div><div class="btncenter">
+					<a href="http://alojamiento.lycos.es" target="_self"><font color='#FF8600'><b>ir a Lycos WebCenter</b></font></a>
+				</div><div class="btnright"></div>
+			</div>		</div>
+		<div class="breaker"></div>
+		<div class="subc1"><br/><img src="http://syndication.alojamiento.lycos.es/resources/img/members/picturedog.jpg"></div>
+		<br/><br/>
+		<div class="text">
+			<div class="title">
+				<div class="ttlleft"></div>
+				<div class="ttlcenter">
+					<h1 class="bigText">
+					<br/>
+						<div class="sitename">
+							<script language="JavaScript">
+								domain_name();
+							</script>
+						</div>
+					<font color='#FF8600'>¡Proximamente!</font>
+					</h1>
+					<p class="subText">Este dominio está ya registrado con <a href="/">Lycos WebCenter</a></p>
+				</div>
+				<div class="ttlright"></div>
+			</div>
+		</div>
+		<div class="text2">
+			<font color="#FF8600" size="+2">¡Registre su dominio con una otra extensión!</font>
+			<br/>
+			¡O modifica la caja del dominio p. otra idea de página web!	</div>	
+	<div class="text2">
+		<div class="subc2">
+					<div class="button" style="float:right"><div class="btnleft"></div><div class="btncenter">
+					<a href="javascript:verifyForm()" target="_self">buscar</a>
+				</div><div class="btnright"></div>
+			</div>					<form name="domain_form"  method="get" action="https://alojamiento.lycos.es/order/buy/choose">
+					<input type="hidden" name="offer_id" value="1">
+					www.&nbsp;&nbsp;<input type="text" name="domain" size="18" maxlength="63" id="domain">&nbsp;&nbsp;
+					<select name="tld">
+					<option value="com">.com</option>
+					<option value="eu">.eu</option>
+					<option value="biz">.biz</option>
+					</select>
+					</p>
+
+					<input type="hidden" name="verifydomainname" value="action">
+					<input type="hidden" name="f" value="1">
+					
+					</form>
+		</div>
+	</div>
+	<div class="build_footer">
+		<img src="http://syndication.alojamiento.lycos.es/resources/img/members/bottomrightbutton.jpg">
+		<div class="downText">
+			<a href="http://webcentre.lycos.co.uk">Hosting & Domain names</a> with WebCentre United-Kingdom - 
+<a href="http://webcenter.lycos.de">Webhosting & Domainname</a> mit WebCenter Deutschland<br/>
+<a href="http://webcenter.lycos.fr">Hébergement & noms de domaine</a> avec WebCenter France - 
+<a href="http://webcenter.lycos.it">Webhosting & Dominio</a> con WebCenter Italia<br/>
+<a href="http://webcenter.lycos.nl">Webhosting & Domeinaam</a> van WebCentre Nederland -
+<a href="http://webcenter.spray.se">Hosting & Domänaddress</a> med Spray Webbhotell<br/>		</div>		
+		
+	</div>
+	</div>
+	<div class="footer">
+</div>
+</div>
+</body>
+</html>
+
+
